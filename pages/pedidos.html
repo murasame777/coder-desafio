@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/burguer.png" type="image/png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+    
+        <title>Hace tu Pedido</title>   <!-- Acá va el titulo que se ve en la pestaña del navegador -->
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+    
+    <body class="cuerpo">
+
+        <div class="container">
+    
+            <header class="cuerpo__encabezado" >
+
+                <h1><img src="../images/burguer.png" class="logo"> Guts Burgers</h1>
+                
+                <nav>
+                        <ul class="encabezado__menu">
+                                <li> <a href="../index.html" class="link">Inicio</a></li>
+                                <li> <a href="nosotros.html" class="link">Nosotros</a></li>
+                                <li> <a href="menu.html" class="link">Menú</a></li>
+                                <li> <a href="ubicacion.html" class="link">Locales</a></li>
+                                <li> <a href="pedidos.html" class="link">Pedidos</a></li>
+                        </ul>
+                </nav>
+
+            </header>
+            
+            <section>
+                <form class="form">
+                    <fieldset>
+                        <legend><h2>Hace tu pedido.</h2></legend>
+                                <label for="nombre">Nombre <input type="text" required/></label>
+
+                                <label for="text">Dirección <input type="text" required></label>
+
+                                <label for="tel">Número de telefono <input type="tel" required></label>
+                                
+                                <label for="cantidad">Cantidad de Hamburguesas <input type="number" min="1" max="99" required></label>
+
+                                <label for="consulta">Aclaraciones sobre el pedido </label> 
+
+                                <textarea cols="50" rows="15" name="consulta" placeholder="Quiero pedir 3 opcion 4 y una opcion 2..."></textarea>
+
+                                <input type="submit" value="Confirmar Pedido">
+
+                                <input type="reset" value="Borrar">
+
+                    </fieldset>
+                </form> 
+            </section>
+
+        <footer> 
+        
+                <ul>
+                Seguinos tambien en: 
+                   <li><a href="www.facebook.com" target="_blank"><img src="../images/facebook.png" alt="facebook" class="pngSize"></a></li>
+                    <li><a href="www.instagram.com" target="_blank"><img src="../images/instagram.png" alt="instagram" class="pngSize"></a></li>
+                   <li><a href="www.twitter.com" target="_blank"><img src="../images/twitter.png" alt="twitter" class="pngSize"></a></li>
+                </ul>
+
+        </footer>
+
+        </div>
+
+</body>
+</html>
