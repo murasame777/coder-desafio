@@ -72,15 +72,15 @@ h1{
 
 }
 
-.container{
+.contenedor{
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.container > header,
-.container > section,
-.container > footer {
+.contenedor > header,
+.contenedor > section,
+.contenedor > footer {
 
     border: 1px solid #000000;
     background-color: rgba(250, 235, 215, 0.500);
@@ -90,6 +90,7 @@ h1{
 nav > ul{
     display: flex;
     justify-content: space-evenly;
+
 }
 
 footer > ul{
