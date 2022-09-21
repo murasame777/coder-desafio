@@ -40,7 +40,7 @@ p{
     color:#9932CD
 }
 
-.link:hover{
+.nav-link:hover:hover{
     color: red;
 }
 
@@ -80,7 +80,7 @@ h1{
 
 .contenedor > header,
 .contenedor > section,
-.contenedor > footer {
+.contenedor> footer {
 
     border: 1px solid #000000;
     background-color: rgba(250, 235, 215, 0.500);
@@ -102,6 +102,14 @@ footer > ul{
 article{
     margin-bottom:2rem;
 }
+.padding-top{
+    padding-top: 1rem;
+}
+
+.nav-link{
+    color:#9932CD
+}
+
 /*   MENU   */
 
 
